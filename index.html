@@ -489,21 +489,5 @@
             </div>
           </div>
     </div>
-    <div id="videoContainer" style="display: none;">
-      <video controls autoplay>
-        <source src="" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-    </div>
-    
-    <button id="secretButton">Click for secret 🔞</button>
-    <script>
-      document.getElementById('secretButton').addEventListener('click', function() {
-        var videoContainer = document.getElementById('videoContainer');
-        var videoElement = videoContainer.querySelector('video');
-        videoElement.src = "https://cdn.discordapp.com/attachments/701853552364224684/1213253978251599912/2849537E-5C0E-4DD8-880C-D8F380FB96F9.mov?ex=65f4cdd1&is=65e258d1&hm=1f0c331deef3fab16de7157e97e75a7271fc677f9c9116c9133618174b564ee1&";
-        videoContainer.style.display = "block";
-      });
-    </script>
   </body>
 </html>
